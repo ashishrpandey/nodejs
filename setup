@@ -1,0 +1,15 @@
+
+for Centos systems:
+
+yum install -y gcc-c++ make
+curl -sL https://rpm.nodesource.com/setup_12.x | sudo -E bash -
+yum install nodejs -y
+
+node -v
+
+[root@ip-172-31-26-148 ec2-user]# node
+Welcome to Node.js v12.11.1.
+Type ".help" for more information.
+>console.log("Hello NodeJS")
+Hello NodeJS
+undefined
