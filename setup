@@ -13,3 +13,44 @@ Type ".help" for more information.
 >console.log("Hello NodeJS")
 Hello NodeJS
 undefined
+
+mkdir nodeappl
+cd nodeappl
+
+npm init
+---fill in the info
+
+vim index.js 
+-- write code
+
+Run the code by command
+npm index 
+
+install express "Locally" by 
+npm install express --save
+
+see the difference in package.json 
+cat package.json 
+-- look at the "dependencies" block
+
+npm list --depth=0
+nodejs@1.0.0 E:\code\nodejs
+`-- express@4.17.1
+
+Install npm globally 
+npm install -g express-generator
+if error do 
+sudo npm install -g express-generator
+
+Check the global list 
+npm list -g --depth=0
+
+
+npm install -g nodemon
+
+Check all the configs by running 
+npm config list
+
+
+
+-----------------
